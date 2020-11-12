@@ -13,6 +13,11 @@
 		EE87852E255C27E6004A08FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE87852C255C27E6004A08FE /* Main.storyboard */; };
 		EE878530255C27F0004A08FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE87852F255C27F0004A08FE /* Assets.xcassets */; };
 		EE878533255C27F0004A08FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE878531255C27F0004A08FE /* LaunchScreen.storyboard */; };
+		EE87853D255C2A27004A08FE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE87853C255C2A27004A08FE /* LoginViewController.swift */; };
+		EE87853F255C2A4C004A08FE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE87853E255C2A4C004A08FE /* HomeViewController.swift */; };
+		EE878541255C2A68004A08FE /* ImageSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE878540255C2A68004A08FE /* ImageSelectViewController.swift */; };
+		EE878543255C2A90004A08FE /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE878542255C2A90004A08FE /* PostViewController.swift */; };
+		EE878545255C2AC2004A08FE /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE878544255C2AC2004A08FE /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		EE87852F255C27F0004A08FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE878532255C27F0004A08FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE878534255C27F0004A08FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE87853C255C2A27004A08FE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EE87853E255C2A4C004A08FE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EE878540255C2A68004A08FE /* ImageSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectViewController.swift; sourceTree = "<group>"; };
+		EE878542255C2A90004A08FE /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		EE878544255C2AC2004A08FE /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,11 @@
 				EE878526255C27E6004A08FE /* AppDelegate.swift */,
 				EE878528255C27E6004A08FE /* SceneDelegate.swift */,
 				EE87852A255C27E6004A08FE /* ViewController.swift */,
+				EE87853C255C2A27004A08FE /* LoginViewController.swift */,
+				EE87853E255C2A4C004A08FE /* HomeViewController.swift */,
+				EE878540255C2A68004A08FE /* ImageSelectViewController.swift */,
+				EE878542255C2A90004A08FE /* PostViewController.swift */,
+				EE878544255C2AC2004A08FE /* SettingViewController.swift */,
 				EE87852C255C27E6004A08FE /* Main.storyboard */,
 				EE87852F255C27F0004A08FE /* Assets.xcassets */,
 				EE878531255C27F0004A08FE /* LaunchScreen.storyboard */,
@@ -138,6 +153,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE878541255C2A68004A08FE /* ImageSelectViewController.swift in Sources */,
+				EE87853F255C2A4C004A08FE /* HomeViewController.swift in Sources */,
+				EE878543255C2A90004A08FE /* PostViewController.swift in Sources */,
+				EE878545255C2AC2004A08FE /* SettingViewController.swift in Sources */,
+				EE87853D255C2A27004A08FE /* LoginViewController.swift in Sources */,
 				EE87852B255C27E6004A08FE /* ViewController.swift in Sources */,
 				EE878527255C27E6004A08FE /* AppDelegate.swift in Sources */,
 				EE878529255C27E6004A08FE /* SceneDelegate.swift in Sources */,
@@ -294,7 +314,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.tetelab.Instagram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +332,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.tetelab.Instagram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
